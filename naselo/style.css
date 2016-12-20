@@ -1,0 +1,625 @@
+
+html, body, div, header, main, footer, p, h1, ul, li, img{
+	margin: 0px;
+	pading:0;
+}
+body{
+	background: #E1E1E1;
+	width:100%;
+}
+/* header */
+p, a, h2 {
+	color: #FCF9F9;
+	font-family:cursive;
+	/*font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;*/
+	text-decoration:none;
+}
+h3{
+	color: #02575b;
+	font-family:cursive;
+}
+ul{
+	list-style-type:none;
+}
+header{
+	/* background: rgba(0, 0, 0, 0.4); */
+	background: rgba(14, 90, 132, 0.96);
+	min-height:50px;
+	width: 100.0%;
+	display: block;
+	}
+#logo{
+	display:inline-block;
+	padding: 3px;
+	/*margin-left:5%;
+	margin-top:2px;*/
+}
+header div a{
+	font-size:27px;
+	text-shadow: 2px 2px 4px   #000000;	
+}
+
+header nav{	
+	float:right;	
+}
+header li{
+	display:inline-block;
+	padding:6px;
+	margin:6px 5px;
+	/*text-transform: uppercase;*/
+	font-size:15px;
+}
+header a{		
+	color:#F1F1F1;
+	padding:10px;	
+}
+header a:hover{
+	color: rgb(213, 221, 210);
+	/*background-color: rgba(101, 108, 118, 0.8);*/
+	text-shadow: 2px 2px 4px #000000;	
+}
+header ul{
+	
+	text-align:right;
+	margin-right:25px;
+	/*margin-left:530px;*/
+}
+/* End header */
+main{
+	/* position:absolute; */
+	width:100%;
+	/* top:0; */
+	/* left:0; */
+	min-height: 100px;
+}
+#field{
+	background-image: url(img/sunflower.jpg);
+	width:100%;
+	height:600px;
+	/* position:absolute; */
+	/* top:0; */
+	/* left:0; */
+	z-index:-10;
+	}
+#pbox{
+	max-width:36%;
+	background:rgba(101,108,118,0.54);
+	position:absolute;
+	top:250px;
+	left:50%;
+	min-height:80px;
+	z-index: 5;
+	padding:5px 20px;
+}
+#pbox p{
+	font-size:25px;			
+}
+#wrapperbox{
+	background: #E1E1E1;
+	width: 83%;
+	/* height: 300px; */
+	/* position:absolute; */
+	/* top:650px; */
+	padding-left: 17%;
+	/* margin: 10px 0; */
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+#wrapperbox img{
+	width:100%;
+}
+#wrapperbox div{
+	width:18%;
+	height: 92.9%;
+	display:inline-block;
+	/* position: relative; */
+	/* top:0; */
+	/* left: 0%; */
+	margin:0;
+	padding: 1%;
+}
+#firstbox{
+	background:#C0BEBE;
+}
+#secondbox{
+	background:#BBBBBB;
+}
+#thirdbox{
+	background:#C0C0C0;
+}
+#fourthbox{
+	background:#CBCBCB;
+}
+#wrapperbox h3{
+	text-transform: uppercase;
+	
+}
+#wrapperbox p{
+	/*padding-left:5%;*/	
+}
+#wrapperbox a{	
+	color: #4492e2;
+}
+#nature{
+	/*background:url(img/landscape.jpg);*/
+	background-image: url(img/springtime1680.jpg);
+	width:100%;
+	min-height:295px;
+	/* position: absolute; */
+	/* left:0; */
+	/* top:1000px; */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#beauty{
+	background:rgba(103,104,104,0.60);
+	width: 90%;
+	min-height:70px;
+	margin: 2% 0px;
+	padding: 1% 5%;
+	font-size: large;
+	position:relative;
+	top: 100px;
+}
+footer{
+	display: block;
+	background: #033E23;
+	width:100%;
+	min-height: 250px;
+}
+footer div{
+	
+	text-decoration:none;
+	/* align-content: center; */
+}
+#textfooter{
+	background-color: transparent;
+	width: 26%;
+	min-height: 220px;
+	display: inline-block;
+	/* position:relative; */
+	/* top:0; */
+	/* left:0; */
+	padding: 20px 2% 5px 2%;
+	text-decoration:none;
+	vertical-align: top;
+}
+#menufooter{
+	background-color: transparent;/*#0D4D4A;*/
+	width:40%;
+	min-height: 245px;
+	/* position: absolute; */
+	display: inline-block;
+	/* top:0; */
+	/* left:30%; */
+	/* padding: 5px 2%; */
+	vertical-align: top;
+}
+#menufooter ul{
+	padding-bottom: 55px;
+	padding-left: 40%;
+	margin-top: 25px;
+}
+#tel1{
+	padding-bottom: 20px;
+}
+#preserve{
+	text-align:center;	
+}
+#gallery{
+	background-color: transparent;
+	width: 26%;
+	min-height: 223px;
+	display: inline-block;
+	/* position: absolute; */
+	/* top:0; */
+	/* left:70%; */
+	padding: 5px 2%;
+	vertical-align: top;
+}
+#gallery div{
+	display: inline-block;
+	position: relative;
+	padding: 1%;
+}
+#gallerytxt{
+	width: 100%;
+}
+.oneg{
+	/* width:270px; */
+	width: 29%;
+	height: 92.9%;
+	top:0;
+	left: 0%;
+	margin: 1px;
+}
+.one{
+	margin-top: 11px;
+}
+.toog{
+	width: 29%;
+	height: 92.9%;
+	top:0;
+	left: 0%;
+	margin: 1px;
+}
+
+
+/*CONTACT*/
+#plaincontact {
+    background: url(img/plain1680.jpg), #5d94b3;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width:100%;
+    height: 750px;
+    /* position:absolute; */
+    /* top:0; */
+    /* left:0; */
+    z-index:-10;
+    padding-top: 20px;
+}
+#pboxcontact{
+	max-width:36%;
+	background:rgba(101,108,118,0.54);
+	/* position:absolute; */
+	/* top: 105px; */
+	/* left: 34%; */
+	min-height:80px;
+	z-index:-1;
+	padding: 15px 20px;
+	margin: 0 auto 0 auto;
+}
+#pboxcontact div{
+	margin: 5% 0;
+}
+textarea {
+	width: 86%;
+	height: 45px;
+	color: #bababa;
+}
+label {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#D9D7D7;
+	font-size:12px;
+}
+input{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #5d6866;
+	font-size:12px;
+}
+
+
+
+/*Calendar*/
+.box {
+	width:18%;
+	height: 92.9%;
+	display:inline-block;
+	position: relative;
+	top:0;
+	left: 0%;
+	margin:0;
+	padding: 1%;
+	color:#344B47;
+	vertical-align: top;
+}
+#calendarbox{
+	background: #E1E1E1;
+	width: 83%;
+	height: 100%;
+	/* position:absolute; */
+	/* top:650px; */
+	/* margin: 10px 0; */
+	padding-top: 30px;
+	padding-bottom: 17px;
+	padding-left: 8%;
+}
+#calendarbox img{
+	width:100%;
+}
+#calendarbox a{
+	color:#0F4105;
+	
+}
+#calendarbox p{
+	color: #7b7d7b;
+}
+/*gallery*/
+#gallerybox{
+	background: #E1E1E1;
+	width: 83%;
+	height: 100%;
+	/* position:absolute; */
+	/* top:650px; */
+	/* margin: 10px 0; */
+	padding-top: 30px;
+	padding-bottom: 17px;
+	padding-left: 8%;
+}
+.gbox {
+	width: 31%;
+	height: 92.9%;
+	display:inline-block;
+	position: relative;
+	top:0;
+	left: 0%;
+	margin:0;
+	padding: 1%;
+	color:#344B47;
+	vertical-align: top;
+}
+#gallerybox img{
+	width:100%;
+}
+#gallerybox a{
+	color:#0F4105;
+	
+}
+#gallerybox p{
+	color: #A4A7B8;
+}
+
+
+
+
+
+
+/*Garden*/
+#plaingarden {
+    background: url(img/poleto180h.png), #8faeff;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width:100%;
+    min-height: 750px;
+    /* position:absolute; */
+    /* top:0; */
+    /* left:0; */
+    z-index:-10;
+    padding-top: 20px;
+}
+#pboxgarden{
+	max-width: 48%;
+	background: rgba(148, 158, 174, 0.4);
+	/* position:absolute; */
+	/* top: 105px; */
+	/* left: 34%; */
+	min-height:80px;
+	z-index:-1;
+	padding: 15px 20px;
+	margin: 0 auto 0 auto;
+}
+#pboxgarden div{
+	margin: 5% 0;
+}
+#pboxgarden img{
+	margin: 5% 25%;
+	width: 50%;
+}
+/*bed*/
+#pboxgarden li{
+	/* margin: 0 0%; */
+	color: #88584a;
+	font-family:cursive;
+	text-align: center;
+	padding-left: -5%;
+}
+
+
+/*Responsive*/ 
+@media only screen and (max-width: 780px){
+	header{
+	/*background: rgba(0, 0, 0, 0.4);*/
+	background: rgba(51,102,153,0.53);
+	min-height:200px;
+	width: 100.0%;
+	}
+#logo{
+	float: right;
+	display:inline-block;
+	padding: 3px;
+	/*margin-left:5%;
+	margin-top:2px;*/
+}
+header div a{
+	font-size:27px;
+	text-shadow: 2px 2px 4px   #000000;	
+}
+
+header nav{	
+	float: left;
+	/*text-align:center;*/	
+}
+	header li{
+	display: block;
+	padding:6px;
+	margin:6px 5px;	
+	font-size:15px;
+}
+
+#wrapperbox{
+	background-color: transparent;
+	width: 83%;
+	min-height: 292px;
+	/* position:absolute; */
+	/* top:650px; */
+	padding-left: 17%;
+}
+#wrapperbox img{
+	width:100%;	
+}
+#wrapperbox div{
+	width:40%;
+	height: 84.9%;
+	display:inline-block;
+	/* position: relative; */
+	/* top:0; */
+	/* left: 0%; */
+	margin:0;
+	padding: 1%;
+}
+#nature{
+	/*background:url(img/landscape.jpg);*/
+	background-image: url(img/springtime1680.jpg);
+	width:100%;
+	min-height:295px;
+	/* position: absolute; */
+	/* left:0; */
+	/* top:1300px; */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#beauty{
+	background:rgba(103,104,104,0.60);
+	width: 90%;
+	min-height:70px;
+	margin: 8% 0px;
+	padding: 1% 5%;
+	font-size: large;
+	position:relative;
+	
+	
+}
+
+	#textfooter{
+	background-color: transparent;
+	width: 100%;
+	min-height: 40px;
+	/* position:relative; */
+	/* top:0; */
+	/* left:0; */
+	padding: 20px 2% 5px 2%;
+	text-decoration:none;
+}
+	#menufooter{
+	background-color: #0D4D4A;
+	width:100%;
+	min-height: 245px;
+	/* position: relative; */
+	/* top:0; */
+	/* left:0; */
+	/* padding: 5px 2%; */
+}
+	#gallery{
+	background-color: transparent;
+	width: 100%;
+	min-height: 223px;
+	/* position: relative; */
+	/* top:0; */
+	/* left:0; */
+	padding: 5px 2%;
+}
+/*calendar max-width 780px*/
+.box {
+	width: 45%;
+	height: 92.9%;
+	display:inline-block;
+	position: relative;
+	top:0;
+	left: 0%;
+	margin:0;
+	padding: 1%;
+	color:#344B47;
+	vertical-align: top;
+}
+#calendarbox{
+	background: #E1E1E1;
+	width: 83%;
+	height: 100%;
+	/* position:absolute; */
+	/* top:650px; */
+	/* margin: 10px 0; */
+	padding-top: 30px;
+	padding-bottom: 17px;
+	padding-left: 8%;
+}
+#calendarbox img{
+	width:100%;
+}
+/*gallery max-width 780px*/
+#gallerybox{
+	background: #E1E1E1;
+	width: 83%;
+	height: 100%;
+	/* position:absolute; */
+	/* top:650px; */
+	/* margin: 10px 0; */
+	padding-top: 30px;
+	padding-bottom: 17px;
+	padding-left: 8%;
+}
+.gbox {
+	width: 45%;
+	height: 92.9%;
+	display:inline-block;
+	position: relative;
+	top:0;
+	left: 0%;
+	margin:0;
+	padding: 1%;
+	color:#344B47;
+	vertical-align: top;
+}
+
+/*Garden max-width 780px*/
+#plaingarden {
+    background: url(img/poleto180h.png), #8faeff;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width:100%;
+    min-height: 850px;
+    /* position:absolute; */
+    /* top:0; */
+    /* left:0; */
+    z-index:-10;
+    padding-top: 20px;
+}
+#pboxgarden{
+	max-width: 48%;
+	background: rgba(148, 158, 174, 0.4);
+	/* position:absolute; */
+	/* top: 105px; */
+	/* left: 34%; */
+	min-height:80px;
+	z-index:-1;
+	padding: 15px 20px;
+	margin: 0 auto 0 auto;
+}
+#pboxgarden div{
+	margin: 5% 0;
+}
+#pboxgarden img{
+	margin: 5% 25%;
+	width: 50%;
+}
+/*bed*/
+#pboxgarden li{
+	/* margin: 0 0%; */
+	color: #88584a;
+	font-family:cursive;
+	text-align: center;
+	padding-left: -5%;
+}
+/*CONTACT*/
+#plaincontact {
+    background: url(img/plain1680.jpg), #5d94b3;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    width:100%;
+    height: 850px;
+    /* position:absolute; */
+    /* top:0; */
+    /* left:0; */
+    z-index:-10;
+    padding-top: 20px;
+}
+textarea {
+	width: 97%;
+	height: 45px;
+	color: #bababa;
+}
+
+}
